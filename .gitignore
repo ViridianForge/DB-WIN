@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#VisualCode data
+.vscode
+
+#Data Files
+*.csv
