@@ -108,3 +108,6 @@ venv.bak/
 
 #Data Files
 *.csv
+
+#API-Keys
+api-key/

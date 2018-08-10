@@ -3,7 +3,7 @@
 # logic is working correctly.
 
 import unittest
-import ../bc_scraper
+import lib.bc_scraper
 
 class bc_scraper_tests(unittest.TestCase):
 
@@ -18,3 +18,6 @@ class bc_scraper_tests(unittest.TestCase):
     #Test three - Make sure Artist Scraping Works
     def test_artist_scrape(self):
         self.fail()
+
+if __name__ == '__main__':
+    unittest.main()
