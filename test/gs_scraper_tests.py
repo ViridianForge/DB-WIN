@@ -17,6 +17,7 @@ class bc_scraper_tests(unittest.TestCase):
     #Test one - Make sure Genre Scraping Works
     def test_getGSheetData(self):
         result = getGSheetData(testWrkBk, 0)
+        print(result)
         self.assertIsNotNone(result)
 
 if __name__ == '__main__':
